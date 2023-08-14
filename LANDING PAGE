@@ -1,0 +1,478 @@
+//HTML CODE FOR 'LANDING PAGE'
+<!DOCTYPE html>
+<html>
+<body>
+    <nav>
+        <div class="PART-A">LANDING PAGE</div>
+        <ul class="nav__links">
+            <li class="link">Home</li>
+            <li class="link">Images</li>
+            <li class="link">Offers</li>
+            <li class="link">Services</li>
+            <li class="link">Contacts</li>
+        </ul>
+    </nav>
+    <header>
+        <div class="section__container">
+            <div class="header__content">
+                <h1> Manchuru Hotels</h1>
+                <p>
+                    The great advantage of a hotel is that it is a refuge from home life. Nothing makes you feel better than when you get into a hotel bed, and the sheets feel so good. Why shouldn't you wake up like that every day?
+                </p>
+                <button>Explore</button>
+            </div>
+        </div>
+    </header>
+    <section class="journey__container">
+        <div class="section__container">
+            <h2 class="section__title">BOOK YOUR ROOM</h2>
+            <p class="section__subtitle">Your comfort our Aim</p>
+            <div class="journey__grid">
+                <div class="country__card">
+                    <img src="https://www.collinsdictionary.com/images/thumb/singleroom_713511961_250.jpg?version=4.0.321" alt="country" />
+                    <div class="country__name">
+                        <i class="ri-map-pin-2-fill"></i>
+                        <span>Single Bedroom </span>
+                    </div>
+                </div>
+                <div class="country__card">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2023/6/320014986/UD/EV/LK/633956/double-bed-1000x1000.jpg" alt="country" />
+                    <div class="country__name">
+                        <i class="ri-map-pin-2-fill"></i>
+                        <span>Double Bedroom</span>
+                    </div>
+                </div>
+                <div class="country__card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/EVA_Air_Infinity_Lounge_Taipei_%2812790126753%29.jpg" alt="country" />
+                    <div class="country__name">
+                        <i class="ri-map-pin-2-fill"></i>
+                        <span>Lounge</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="banner__container">
+        <div class="section__container">
+            <div class="banner__content">
+                <h2>Discount 10-30% Off</h2>
+                <p>
+                  Book your room on budget with our unbeatabke discounted on booking deals.whether you're looking for a last-minute escape or planning ahead, discounts on Rooms,Lounges & Convention halls. Don't wait, book now and experience the comfort of night without breaking the bank.
+                </p>
+                <button>Book Now </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="display__container">
+        <div class="section__container">
+            <h2 class="section__title">Why Choose Us</h2>
+            <p class="section__subtitle">
+                Here, we are glad to present most pleasent nature
+            </p>
+         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://www.luxurytravelmagazine.com/files/593/4/79684/The_Outpost_Hotel_Pool_Deck_S_bu.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://foto.hrsstatic.com/fotos/3/2/z/737/100/FFFFFF/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2F4%2F5%2F7%2F7%2F457799%2F457799_u_20294226.jpg/voIpsed0fymkBtu17qG5GQ%3D%3D/366%2C368/6/Ameristar_Casino_Hotel-Randolph-Info-1-457799.jpg" alt="Second slide">
+    </div>
+  </div>
+</div>      
+        </div>
+    </section>
+    <footer>
+        <div class="section__container">
+            <h4>Manchuru.Hotels</h4>
+            <div class="social__icons">
+                <span><i class="ri-facebook-fill"></i></span>
+                <span><i class="ri-twitter-fill"></i></span>
+                <span><i class="ri-instagram-line"></i></span>
+                <span><i class="ri-linkedin-fill"></i></span>
+            </div>
+            <p>
+            A Hotel for HOPE, A HOtel for HAPPY
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
+//CSS CODE FOR 'LANDING PAGE'
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+:root {
+    --primary-color: #669ccf;
+    --primary-color-dark: #5681a7;
+    --secondary-color: #e8f1fa;
+    --text-dark: #282d31;
+    --text-light: #767268;
+    --extra-light: #f3f4f6;
+
+    --max-width: 1200px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section__container {
+    padding: 15rem 50px;
+    margin: center;
+    background-color: #EFC074;
+    align-items: center;
+
+}
+
+.section__title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.section__subtitle {
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--primary-color);
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem 1rem;
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PART-A {
+    text-decoration:underline;
+    color:#C607EC;
+    font-size: 35px;
+}
+
+.nav__links {
+    align-items: center;
+    gap: 30px;
+}
+
+.link {
+    color: #F10030;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: var(--primary-color);
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(45, 92, 132, 0.5),
+            rgba(45, 92, 132, 0.5)),
+        url("assets/bg-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .section__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    color: white;
+
+}
+
+.header__content h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 5rem;
+   
+}
+
+.header__content p {
+    text-align: center;
+}
+
+.header__content button {
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--extra-light);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header__content button:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.journey__container {
+    background-color: var(--secondary-color);
+}
+
+.journey__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.country__card {
+    background-color: var(--extra-light);
+}
+
+.country__name {
+    padding: 1rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-light);
+    cursor: pointer;
+}
+
+.country__name i {
+    font-size: 1.2rem;
+}
+
+.country__name span {
+    font-style: italic;
+}
+
+.banner__container {
+    background-image: linear-gradient(rgba(35, 71, 103, 0.5),
+            rgba(35, 71, 103, 0.5)),
+        url("assets/bg-2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_container .section_container {
+    padding: 10rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.banner__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    color:#092ACF;
+    text-align: center;
+}
+
+.banner__content h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.banner__content button {
+    padding: 0.5rem 2rem;
+    outline: none;
+    border: 2px solid var(--secondary-color);
+    background-color: transparent;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.display__container {
+    background-color: var(--secondary-color);
+}
+
+.display_container :is(.sectiontitle, .section_subtitle) {
+    color: var(--text-dark);
+}
+
+.display__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.display__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: var(--extra-light);
+    text-align: center;
+}
+
+.display__card i {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.display__card h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    color: var(--text-dark);
+}
+
+.display__card p {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+    color: var(--text-dark);
+}
+
+.display__grid .grid-1 {
+    grid-area: 1/1/3/3;
+}
+
+footer {
+    background-color: var(--text-dark);
+    color: var(--secondary-color);
+}
+
+footer .section__container {
+    display: grid;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.social__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social__icons i {
+    padding: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+footer p {
+    font-style: italic;
+}
+
+@media (min-width: 640px) {
+    .nav__links {
+        display: flex;
+    }
+
+    header .section__container {
+        justify-content: flex-start;
+    }
+
+    .header__content {
+        max-width: 400px;
+        align-items: flex-start;
+    }
+
+    .header__content p {
+        text-align: left;
+    }
+
+    .journey__grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .display__grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .display__card {
+        gap: 0;
+    }
+
+    .display__card i {
+        font-size: 1.75rem;
+    }
+
+    .display__card h4 {
+        font-size: 1rem;
+    }
+
+    .display__card p {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 786px) {
+    .banner_container .section_container {
+        justify-content: flex-end;
+    }
+
+    .banner__content {
+        align-items: flex-end;
+        text-align: right;
+        max-width: 800px;
+    }
+
+    .display__card {
+        gap: 0.5rem;
+    }
+
+    .display__card i {
+        font-size: 2.5rem;
+    }
+
+    .display__card p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .display__card {
+        gap: 1rem;
+    }
+
+    .display__card i {
+        font-size: 3rem;
+    }
+
+    .display__card h4 {
+        font-size: 1.5rem;
+    }
+
+    .display__card p {
+        font-size: 1rem;
+    }
+}
